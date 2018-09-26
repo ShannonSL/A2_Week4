@@ -1,4 +1,10 @@
 // import vars and modules
-#import '_vars'
+@import '_vars';
 
+// import required modules
+@import 'modules_header';
+@import 'modules/_classcontent';
+@import 'modules_footer';
+
+// these are my main styles ->sidebar
 .sidebar { background-color: $sidebar-bgcolor; }
